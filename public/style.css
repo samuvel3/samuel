@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: rgb(0, 0, 0, 0.1);
+
+}
+
+header {
+
+    background: rgb(237, 183, 23);
+    margin: auto;
+    padding: 16px 35px;
+    /* padding: 15px 3% 15px 3% ; */
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.3);
+
+}
+
+header h1 {
+    color: rgb(255, 255, 255);
+    font-family: "McLaren", cursive;
+}
+
+
+#createarea {
+    position: relative;
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background: white;
+    width: 350px;
+    height: 150px;
+    padding: 25px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#createarea input,
+textarea {
+    border: none;
+    margin-bottom: 10px;
+    font-size: 20px;
+    outline: none;
+}
+
+#outcreatearea {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.add {
+    border: none;
+    color: rgb(237, 183, 23);
+    background: white;
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+
+}
+
+#allnotes{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+
+#notes {
+    box-shadow: 0 0 10px 0 rgb(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background: white;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    margin: 50px;
+    position: relative;
+    
+
+}
+
+.delete {
+    position: absolute;
+    border: none;
+    color: rgb(237, 183, 23);
+    background: white;
+    right: 20px;
+    bottom: 10px;
+}
+
+footer {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+
+    margin-bottom: 15px;
+
+
+}
+
+footer p {
+    color: rgb(0, 0, 0, 0.4);
+}
